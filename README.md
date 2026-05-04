@@ -11,3 +11,9 @@
 <video src="https://github.com/user-attachments/assets/ddec4704-14a6-41b1-b13d-5b37625149b1" controls width="100%" style="max-width: 600px;">
   Ваш браузер не поддерживает видео.
 </video># task_2
+
+<?$APPLICATION->IncludeComponent(
+    "multiline:ml2webforms.form.display",
+    ".default",
+    Array("ID" => "feedback")
+);?>
