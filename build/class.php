@@ -10,7 +10,7 @@ use Bitrix\Main\Loader;
 
 class ml2webformsFormDisplay extends CBitrixComponent
 {
-    public function executeComponent(): void
+    public function executeComponent()
     {
         $this->arResult['ID']      = $this->arParams['ID'] ?? 'feedback';
         $this->arResult['SUCCESS'] = false;
@@ -25,7 +25,7 @@ class ml2webformsFormDisplay extends CBitrixComponent
         $this->includeComponentTemplate();
     }
 
-    private function processForm(): void
+    private function processForm()
     {
         try {
             if (!Loader::includeModule('multiline.ml2webforms')) {
