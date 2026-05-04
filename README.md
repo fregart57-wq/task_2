@@ -13,7 +13,11 @@
 </video># task_2
 
 <?$APPLICATION->IncludeComponent(
+
     "multiline:ml2webforms.form.display",
+
     ".default",
+
     Array("ID" => "feedback")
+
 );?>
