@@ -1,7 +1,4 @@
-<?
-require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetTitle("style.css");
-?>*,:after,:before {
+*,:after,:before {
     box-sizing: border-box
 }
 
@@ -18436,4 +18433,3 @@ h1,h2,h3,h4,h5,h6 {
         overflow: auto!important
     }
 }
-<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
